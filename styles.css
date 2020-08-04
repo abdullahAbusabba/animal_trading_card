@@ -1,0 +1,51 @@
+/* add your CSS here */
+
+img {width:300px;height:200px;border-radius:10px;}
+  
+
+header {font-size: 20px;}
+ul {
+
+    list-style: none;
+    word-spacing: 1px;
+    float: left;
+    padding: 12px 13px 12px 3px;
+    border-top: dotted;
+    border-bottom: dotted;
+    border-radius: 1em;
+    width: initial;
+    height: initial;
+    background-color: rgb(214, 233, 240);   
+}
+ul li {
+    font-size: 15px;
+}
+ul li span {
+    font-weight: bold;
+    line-height:1em;
+    display: inline-block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-color: rgb(235, 230, 230);
+    margin: 2em auto;
+    width: 300px;
+}
+
+.card {
+    position: relative;
+    border-top: 30px solid rgb(214, 233, 240);
+    background-color: floralwhite;
+    width: 300px;
+    padding: 2px 5px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px 5px 5px rgb(121, 115, 115);
+    /* overflow-wrap: break-word; */
+    
+}
+
+.animal-info {display: inline-block;text-align: justify;}
